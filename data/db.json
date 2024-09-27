@@ -1,0 +1,13 @@
+{
+  "products": [
+    { "name": "Water", "price": 200, "id": 1 },
+    { "name": "Coke", "price": 30, "id": 2 },
+    { "name": "Tubig", "price": 120, "id": 3 },
+    { "name": "Sprite", "price": 500, "id": 4 },
+    { "name": "Flip", "price": 300, "id": 5 },
+    { "name": "Shit", "price": 600, "id": 6 },
+    { "name": "Heather", "price": 10, "id": 7 },
+    { "name": "Feather", "price": 201, "id": 8 },
+    { "name": "Together", "price": 220, "id": 9 }
+  ]
+}
