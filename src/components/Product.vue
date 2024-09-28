@@ -1,25 +1,21 @@
 <script setup>
 const props = defineProps({
-  product: {
-    type: Object,
-    default: () => ({
-      name: 'Def',
-      id: 0,
-      price: 0
-    })
-  }
+  product: {}
 })
 const { product } = props
 
 const name = product.name
 const price = product.price
+const id = product.id
 </script>
 
 
 <template>
   <div class="product">
     <img src="https://via.placeholder.com/150" alt="a pic" />
-    <h2>{{ name }}</h2>
+    <router-link :to="{ name: 'details', params: { id: product.id } }">
+      <h2>{{ name }}</h2>
+    </router-link>
     <p>Price: {{ price }}</p>
   </div>
 </template>

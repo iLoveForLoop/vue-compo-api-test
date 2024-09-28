@@ -26,10 +26,11 @@ onMounted(() => {
 
 <template>
   <div class="backdrop" @click.self="toogle" v-if="modal">
-    <div class="container">
+    <div class="containerization">
       <img src="https://via.placeholder.com/350" alt="a pic" />
       <h1>{{ product.name }}</h1>
       <h3>Price: {{ product.price }}</h3>
+      <h3>ID: {{ id }}</h3>
     </div>
   </div>
 </template>
@@ -46,7 +47,7 @@ onMounted(() => {
   align-items: center;
   background: rgba(0, 0, 0, 0.5);
 }
-.container {
+.containerization {
   text-align: center;
   align-content: center;
   background: antiquewhite;

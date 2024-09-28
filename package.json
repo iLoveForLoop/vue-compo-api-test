@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
-    "start": "concurrently \"npm run dev\" \"json-server data/db.json\""
+    "start": "concurrently \"npm run dev\" \"json-server data/db.json -p 3003\""
   },
   "dependencies": {
     "axios": "^1.7.7",

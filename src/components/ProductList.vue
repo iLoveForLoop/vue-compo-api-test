@@ -1,6 +1,5 @@
 <script setup>
 import { onMounted, ref } from 'vue'
-import axios from 'axios'
 import Product from './Product.vue'
 import ProductInfo from './ProductInfo.vue'
 import getProducts from '@/composables/getProducts'
